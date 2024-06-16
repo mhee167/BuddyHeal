@@ -58,10 +58,6 @@ public class AddressDAO {
 				e.printStackTrace();
 			}
 		}
-		
-		/* 출력 */
-		System.out.println("memberCheck id : " +  id);
-		System.out.println("memberCheck result : " +  result);
 		return result;
 	}
 	
