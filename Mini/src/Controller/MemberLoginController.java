@@ -34,9 +34,9 @@ public class MemberLoginController extends ControllerV1  {
 		
 		if(checkNum==-1){
 			out.println("<script language='javascript'>");
-	        out.println("alert('아이디가 존재하지 않습니다.');");
-	        out.println("history.go(-1);");
-	        out.println("</script>");
+	                out.println("alert('아이디가 존재하지 않습니다.');");
+	                out.println("history.go(-1);");
+	                out.println("</script>");
 	       
 		}else if(checkNum==0){
 			out.println("<script language='javascript'>");
@@ -49,9 +49,9 @@ public class MemberLoginController extends ControllerV1  {
 			dto=dao.getMember(id);
 			if(dto==null){
 				out.println("<script language='javascript'>");
-		        out.println("alert('존재하지 않는 회원입니다.');");
-		        out.println("history.go(-1);");
-		        out.println("</script>");
+		                out.println("alert('존재하지 않는 회원입니다.');");
+		                out.println("history.go(-1);");
+		                out.println("</script>");
 		      
 			}
 	else{
@@ -61,7 +61,7 @@ public class MemberLoginController extends ControllerV1  {
 		session.setAttribute("user_name",name);
 		session.setAttribute("ValidMem","yes");
 		response.sendRedirect("/Mini/index.jsp");
-	//pagecontext는 servlet에서 못씀.	
+		
 	}
 		}
 	}
