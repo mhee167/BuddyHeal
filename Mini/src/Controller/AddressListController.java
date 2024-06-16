@@ -21,7 +21,6 @@ public class AddressListController extends ControllerV2 {
 		
 		// 배열로 가져와서, jsp에서 for문으로 받기
 		AddressDAO dao = new AddressDAO();
-		
 		List<AddressDTO> addressList = dao.listAddress();
 		
 		// (키, 값)
