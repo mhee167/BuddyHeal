@@ -1,0 +1,410 @@
+
+  
+  
+  
+  *{
+    /* font-family: 'Varela Round', sans-serif; 설정한 구글 폰트 적용 */
+
+    font-size: 14px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contents{
+    width: 100%;
+    height: 1200px;
+
+    
+
+}
+/*------------------------------------*/
+
+#container{
+    margin:0 auto;
+    width: 1200px;
+}
+/*------------------------------------*/
+
+/* header{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+} */
+/*------------------------------------*/
+
+#logo2{
+    margin-top:5px;
+    margin-left: 20px;
+
+    float: left;
+    width:300px;
+    height: 80px;
+
+}
+
+#call{
+
+    float: left;
+    width: 300px;
+    height: 100px;
+
+}
+/*------------------------------------*/
+
+
+/*------------------------------------*/
+header{
+    background-color: #FFF3C4;
+    padding-left:  300px;
+    padding-top:  40px;
+    height: 150px;
+
+
+}
+header img{
+    margin-top:  -30px;
+    padding-left:  80px;
+
+    width:550px;
+    height: 140px;
+}
+
+
+
+
+.summary {
+    display: none;
+
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    width: 100px;
+    
+
+}
+
+.detail a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail a:hover {
+    background-color: #f1f1f1;
+}
+
+.container:hover .menu {
+    display: block;
+}
+
+.dropdown-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+            }   
+
+/*------------------------------------*/
+
+
+/*------------------------------------*/
+nav {
+    width: 300px;
+    height: 80px;
+}
+
+#icon {
+    width: 140px;
+    height: 10px;
+    padding-top: 43px;
+    margin-left: 1050px;
+}
+
+.icon-item {
+    position: relative;
+    display: inline-block;
+}
+.icon-item:hover .menu {
+    display: block;
+}
+#contents {
+    width: 300px;
+    height: 80px;
+}
+
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: -10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    width: 100px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+main {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF3C4;
+    overflow: hidden;
+}
+
+
+
+ul {
+    width: 600px;
+    height: 400px;
+    list-style-type: none;
+    padding-top:  200px;
+    padding-left:  200px;
+
+
+}
+
+ul li {
+    margin-bottom: 10px; /* 각 항목 간격 조정 */
+}
+
+
+ul label {
+    width: 200px; /* 라벨 너비 조정 */
+} 
+
+fieldset{
+    
+    margin-top: -100px; /* 음수 값 사용하여 위로 이동 */
+    padding-left:  100px;
+	border:none;
+
+}
+
+/*------------------------------------*/
+
+
+
+#query-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px; /* 폼의 최대 너비 설정 */
+}
+
+#query-input {
+    flex: 1; /* 텍스트 입력란이 남은 공간을 모두 차지하도록 설정 */
+}
+
+#search-button {
+    margin-right: -100%;
+    background-color: transparent; /* 배경색을 투명하게 설정하여 버튼 스타일링을 없앰 */
+    border: none; /* 테두리 제거 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경하여 버튼임을 나타냄 */
+    width: 30px; /* 버튼의 너비 */
+    height: 30px; /* 버튼의 높이 */
+}
+
+
+#search-button img {
+    width: 100%; /* 이미지가 버튼에 꽉 차도록 설정 */
+    height: 100%;
+}
+
+/* #query-form input,button {
+    display: block;
+    width: 500px;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+#query-form ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: -25%;
+}
+#query-form input::placeholder {
+    color: #D2D2D2;
+}
+
+/*------------------------------------*/
+
+#section1 {
+    border-radius: 50px;
+    width: 1000px;
+    height: 50px;
+    background-color: #F1f1f1;
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    padding: 0 20px; /* 좌우 여백 추가 */
+    margin-left: -200px; /* 왼쪽 여백 추가 */
+}
+
+
+#section2 {
+    border-radius: 20px;
+    
+
+    width: 1000px;
+    height: 500px;
+    background-color: #F1f1f1;
+    padding: 50px 20px; /* 좌우 여백 추가 */
+}
+
+#section2 {
+    margin: 10px -200px; /* 수평 가운데 정렬을 위해 왼쪽과 오른쪽 마진을 자동으로 설정합니다. */
+}
+
+
+    table {
+                font-size: 20px;
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px #595555;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+     /*------------------------------------*/
+     
+    
+   /*------------------------------------*/
+            
+.navigator {
+    text-align: center; /* 텍스트를 수평 가운데 정렬합니다. */
+}
+
+.blank {
+    width: 100%;
+    height: 10px;  
+    background-color: #ffffff;
+}
+h1{
+    margin-left: 70%;
+}
+
+hr{
+
+    width: 1200px;
+    left: -75%; /* 화면 가운데에 위치하도록 설정 */
+
+    position: relative;
+    top: 1%; /* 화면 가운데에 위치하도록 설정 */
+ 
+ }
+/*------------------------------------*/
+.info-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px; /* 필요한 경우 크기 조정 */
+    color: #666; /* 텍스트 색상 설정 */
+}
+input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #6A24FE;
+    margin-top: 55px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 70px; /* 둥근 모서리 */
+    margin-left: 250px;
+
+}
+input[type="reset"]{
+    color: #000000;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    border: none;
+
+    padding: 10px 0px;
+    border-radius: 70px; /* 둥근 모서리 */
+    margin-bottom: 16px;
+
+}
+
+
+
+
+#query-form  input{
+
+    display: flex;
+    justify-content: center; /* 아이템을 수평으로 가운데 정렬 */
+    align-items: center; /* 아이템을 수직으로 가운데 정렬 */
+    width: 500px;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    border-radius: 6px;
+    background-color: #F1f1f1;
+    border: none;
+}
+
+
+#query-form li{
+    margin-left: 50px;
+
+    justify-content: center; /* 아이템을 수평으로 가운데 정렬 */
+    align-items: center; /* 아이템을 수직으로 가운데 정렬 */
+}
+#query-form  input::placeholder{
+
+
+    color: #D2D2D2;
+}
+
+
+
+
+
+
+/*------------------------------------*/
+   
+/*------------------------------------*/
+
+footer {
+    width: 1200px;
+    height: 80px;
+    background-color: #FFF3C4;
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* 화면 가운데에 위치하도록 설정 */
+    top: 90%; /* 화면 가운데에 위치하도록 설정 */
+
+    transform: translateX(-50%); /* 가운데 정렬을 위한 transform 사용 */
+}
+#phonenum{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+}

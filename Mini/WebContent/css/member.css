@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* login */
+form#login {
+    width: 500px;
+    margin: 120px auto 160px;
+}
+form#login fieldset input[type="text"],
+form#login fieldset input[type="password"] {
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 60px;
+}
+form#login .clear {
+	overflow: hidden;
+    margin: 5px 0 10px;
+}
+form#login .clear a {
+    font-size: 14px;
+    color: #777;
+}
+form#login .clear > a {
+	color: #2e78ff;
+}
+form#login .clear .right {
+	float: right;
+}
+form#login .clear .right li {
+	font-size: 14px;
+}
+form#login .clear .right li:last-child {
+	margin-left: 12px;
+}
+form#login > input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+form#login > input {
+	margin-top: 10px;
+}
+
+/* join */
+form#join {
+    width: 500px;
+    margin: 120px auto 160px;
+}
+form#join table {
+    margin-bottom: 50px;
+}
+form#join table th {
+    padding: 15px 4px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+form#join table td {
+    padding: 4px;
+}
+form#join table td input {
+    width: 355px;
+}
+form#join .agree_area.privacy_agree {
+    margin-top: 40px; 
+}
+form#join .agree_area h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+form#join .agree_area .content {
+    overflow-y: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+form#join .agree_area .content p {
+    padding: 10px;
+    font-size: 13px;
+    color: #777;
+}
+form#join .agree_area .content::-webkit-scrollbar {
+    width: 3px;
+    background: #ddd;
+}
+form#join .agree_area .content::-webkit-scrollbar-thumb {
+    background: #000;
+}
+form#join .agree_area input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+form#join .btn_join {
+    margin-top: 60px;
+}
+form#join .btn_join input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+/* join Success */
+.join_success {
+    margin: 120px auto 160px;
+    text-align: center;
+}
+.join_success h2 {
+    margin-bottom: 70px;
+}
+.join_success > a {
+    width: 550px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+/* modify */
+.member_modify {
+    width: 500px;
+    margin: 120px auto 160px;
+}
+form#m_modify table {
+    margin-bottom: 50px;
+}
+form#m_modify table th {
+    padding: 15px 4px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+form#m_modify table td {
+    padding: 4px;
+}
+form#m_modify table td input {
+    width: 355px;
+}
+form#m_modify .btn_modify input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.m_delete {
+    margin-top: 20px;
+    text-align: right;
+}
+.m_delete a {
+	display: inlie-block;
+    border-bottom: 1px solid #777;
+    color: #777;
+    line-height: 1.2;
+}
+
+/* mypage */
+.mypage { 
+    position: relative;
+}
+.mypage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+.mypage .inner {
+    padding-top: 200px;
+}
+.mypage .profile {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin-bottom: 120px;
+    text-align: center;
+}
+.mypage .profile > img {
+    margin: -60px 0 30px;
+}
+.mypage .profile span.id {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.mypage .profile span.id b {
+	margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #397bf3;
+    vertical-align: super;
+}
+.mypage .profile .pf_detail {
+    width: 180px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #777;
+    text-align: left;
+}
+.mypage .profile .pf_detail li {
+    margin-bottom: 4px;
+}
+.mypage .profile .pf_detail li span {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 14px;
+    vertical-align: 6px;
+}
+.mypage .profile .btn {
+    margin-top: 60px;
+    padding: 14px 20px 13px;
+    background: #000;
+    color: #fff;
+}
+.mypage .profile .btn:hover {
+    border-color: #397bf3;
+    background: #397bf3;
+}
+.mypage .profile .announ {
+	margin-top: 15px;
+    font-size: 12px;
+    color: #aaa;
+}

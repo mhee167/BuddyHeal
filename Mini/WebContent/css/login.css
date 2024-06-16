@@ -1,0 +1,223 @@
+#contents {
+    width: 300px;
+    height: 80px;
+}
+
+* {
+    font-size: 14px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/*------------------------------------*/
+
+#logo2{
+    margin-top:5px;
+    margin-left: 20px;
+
+    float: left;
+    width:300px;
+    height: 80px;
+
+}
+
+#call{
+
+    float: left;
+    width: 300px;
+    height: 100px;
+
+}
+/*------------------------------------*/
+nav {
+    width: 300px;
+    height: 80px;
+}
+
+#icon {
+    width: 140px;
+    height: 10px;
+    padding-top: 43px;
+    margin-left: 1050px;
+}
+
+.icon-item {
+    position: relative;
+    display: inline-block;
+}
+.icon-item:hover .menu {
+    display: block;
+}
+#contents {
+    width: 300px;
+    height: 80px;
+}
+
+/*------------------------------------*/
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: -10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    width: 100px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.container:hover .menu {
+    display: block;
+}
+/*------------------------------------*/
+
+header {
+    background-color: #FFF3C4;
+    padding-left: 300px;
+    padding-top: 40px;
+    height: 150px;
+}
+
+header img {
+    margin-top: -30px;
+    padding-left: 80px;
+    width: 550px;
+    height: 140px;
+}
+/*------------------------------------*/
+
+main {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF3C4;
+    overflow: hidden;
+}
+
+hr {
+    width:600px;
+}
+
+ul {
+    width: 600px;
+    height: 400px;
+    list-style-type: none;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+ul li {
+    margin-bottom: 10px; /* 揶쏉옙 占쎈퉮筌륅옙 揶쏄쑨爰� 鈺곌퀣�� */
+}
+
+
+ul label {
+    width: 200px; /* 占쎌뵬甕곤옙 占쎄섐��옙 鈺곌퀣�� */
+} 
+
+fieldset {
+    margin-top: 0;
+    padding-left: 100px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*------------------------------------*/
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#login-form ul  {
+	 margin-left: 90px;
+}
+
+#login-form ul li {
+    font-size: 20px; /* �먰븯�� 湲��� �ш린濡� 蹂�寃� */
+    font-weight: bold; /* �먰븯�� 湲��� �먭퍡濡� 蹂�寃� */
+    transform: scale(1.3); /* �ш린 �뺣� */
+    margin-top: 30px; /* �쇰컲 li �붿냼�� �꾩そ 留덉쭊 */
+}
+
+#login-form ul li:first-child {
+    margin-top: -20px; /* '濡쒓렇��' 湲��⑤� �꾨줈 �щ━湲� */
+}
+
+#login-form input {
+    width: 400px;
+    height: 48px;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border: none;
+    text-align: center;
+}
+#login-form input[type="submit"] {
+    width: 100px;
+    background-color: #6A24FE;
+    color: white;
+    margin-left:280px;
+}
+
+#login-form input[type="reset"] {
+    width: 100px;
+    background-color: #f1f1f1;
+    color: black;
+      margin-left:20px;
+    
+}
+
+#login-form input::placeholder {
+    color: #D2D2D2;
+}
+
+.buttons{
+display: flex;
+        justify-content: center; /* 가로 중앙 정렬 */	
+}
+.option {
+    text-align: center;
+    margin-top: 20px;
+    margin-left:280px;
+}
+
+/*------------------------------------*/
+
+footer {
+    width: 1200px;
+    height: 80px;
+    background-color: #FFF3C4;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+}
+
+#phonenum {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+}

@@ -1,0 +1,226 @@
+* {
+    /* font-family: 'Varela Round', sans-serif; �ㅼ젙�� 援ш� �고듃 �곸슜 */
+    font-size: 14px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------*/
+
+#container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*------------------------------------*/
+
+#logo2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    width: 300px;
+    height: 80px;
+}
+
+#call {
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+
+/*------------------------------------*/
+
+nav {
+    width: 300px;
+    height: 80px;
+}
+
+#icon {
+    width: 200px;
+    height: 10px;
+    padding-top: 43px;
+    margin-left: 1070px;
+}
+
+/*------------------------------------*/
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 6%;
+    left: 79%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 100px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.container:hover .menu {
+    display: block;
+}
+
+/*------------------------------------*/
+
+header {
+    background-color: #FFF3C4;
+    padding-left: 300px;
+    padding-top: 40px;
+    height: 150px;
+}
+
+header img {
+    margin-top: -30px;
+    padding-left: 80px;
+    width: 550px;
+    height: 140px;
+}
+
+/*------------------------------------*/
+
+
+
+main {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+hr {
+    width: 600px;
+}
+
+ul {
+    width: 600px;
+    height: 400px;
+    list-style-type: none;
+    padding-top: 200px;
+    padding-left: 200px;
+     margin-top: -80px;
+    transform: scale(1.4);
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul label {
+    width: 200px;
+}
+
+fieldset {
+    margin-top: -100px;
+    padding-left: 100px;
+    border: none;
+}
+
+/*------------------------------------*/
+
+.info-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+#buttons {
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    top: 83%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+     margin-left: -40px;
+}
+
+ #buttons input[type="submit"],
+        #buttons input[type="reset"] {
+            width: 400px; /* 踰꾪듉 �덈퉬瑜� �곷��곸쑝濡� �ㅼ젙 */
+            padding: 10px; /* 踰꾪듉 �대� �щ갚 �ㅼ젙 */
+            border-radius: 6px; /* 踰꾪듉 紐⑥꽌由� �κ�寃� �ㅼ젙 */
+            margin: 10px; /* 踰꾪듉 媛꾧꺽 �ㅼ젙 */
+            border: none; /* �뚮몢由� �놁븷湲� */
+            cursor: pointer; /* �ъ씤�� 而ㅼ꽌濡� 蹂�寃� */
+        }
+        
+        
+/* 踰꾪듉 �ㅽ��� */
+#buttons input[type="submit"] {
+    width: 400px;
+    background-color: #6A24FE;
+    color: white;
+    margin-left:280px;
+}
+
+#buttons input[type="reset"] {
+	 width: 400px;
+    background-color: #fff;
+    color: white;
+    margin-left:280px;
+}
+
+#buttons input[type="reset"] {
+    color: #000000;
+    background-color: #f1f1f1;
+}
+
+#join-form {
+    margin-left: -40px; /* �꾩껜 �쇱쓣 �쇱そ�쇰줈 �대룞 */
+}
+
+#join-form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border: none;
+}
+
+#join-form li {
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#join-form input::placeholder {
+    color: #D2D2D2;
+}
+
+/*------------------------------------*/
+
+footer {
+    width: 1200px;
+    height: 80px;
+    background-color: #FFF3C4;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+}
+
+#phonenum {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+}

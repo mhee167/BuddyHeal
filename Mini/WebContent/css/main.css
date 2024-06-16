@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 메인 배너 */
+.main_banner {
+    position: relative;
+    width: 100%; 
+    max-width: 1280px; 
+    margin: 40px auto 0;
+}
+.main_banner > div {
+    overflow: hidden;
+    border-radius: 50px;
+}
+.main_banner > div .slider { 
+    display: flex;
+    transition: transform 0.5s;
+}
+.main_banner > div .slider li {
+    flex: 0 0 100%;
+}
+.main_banner > div img {
+    width: 100%;
+    vertical-align: top;
+}
+.btn_slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+.btn_slide_prev {
+    left: 60px;
+}
+.btn_slide_next {
+    right: 60px;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* 퀵메뉴 */
+.quick_menu {
+	justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 70px 0;
+}
+.quick_menu li a {
+	display: block;
+    text-align: center;
+}
+.quick_menu li:hover a img {
+    opacity: 0.6;
+}
+.quick_menu li a span {
+    display: block;
+    margin-top: 10px;
+}
+.quick_menu li:hover a span {
+	color: #2e78ff;
+}
+
+/* 회사 소개 */
+.company {
+    padding: 70px 0;
+    background: #e1f0ff;
+    
+    text-align: center;
+}
+.company h2 {
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.company p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.company a {
+   margin-top: 50px;
+   font-size: 15px;
+}
+
+/* 회사 소개 */
+.notice_banner {
+	margin: 100px auto 120px;
+}
+.notice_banner a {
+	display: block;
+}
+.notice_banner a img {
+	width: 100%;
+}

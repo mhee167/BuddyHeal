@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="btn_arrow_left" transform="translate(-2156 -948)">
+    <circle id="타원_15" data-name="타원 15" cx="30" cy="30" r="30" transform="translate(2156 948)" fill="#fff" opacity="0.8"/>
+    <path id="chevron-left" d="M16,22,8,14l8-8h0" transform="translate(2172.5 964.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
