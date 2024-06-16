@@ -1,82 +1,123 @@
-* {
+boardWrite.css
+
+
+  *{
+
     font-size: 14px;
     padding: 0;
     box-sizing: border-box;
 }
-
-#contents {
+#contents{
     width: 100%;
     height: 1200px;
 }
 
-#container {
-    margin: 0 auto;
+.contents {
+    margin-top: 20px; /* section2의 아래 여백 추가 */
+    margin-bottom: 80px; /* 푸터와 겹치지 않도록 contents에 하단 여백 추가 */
+    /* 기타 필요한 스타일 */
+}
+
+/*------------------------------------*/
+
+#container{
+    margin:0 auto;
     width: 1200px;
 }
+/*------------------------------------*/
 
-#logo2 {
-    margin-top: 5px;
+#logo2{
+    margin-top:5px;
     margin-left: 20px;
+
     float: left;
-    width: 300px;
+    width:300px;
     height: 80px;
+
 }
 
-#call {
+#call{
+
     float: left;
     width: 300px;
     height: 100px;
+
 }
 
+/*------------------------------------*/
+header{
+    background-color: #FFF3C4;
+    padding-left:  300px;
+    padding-top:  40px;
+    height: 150px;
+
+
+}
+header img{
+    margin-top:  -30px;
+    padding-left:  80px;
+
+    width:550px;
+    height: 140px;
+}
+
+
+.summary {
+    display: none;
+}
+
+/*------------------------------------*/
 nav {
     width: 300px;
     height: 80px;
 }
 
 #icon {
-    width: 200px;
+    width: 140px;
     height: 10px;
     padding-top: 43px;
-    margin-left: 1070px;
+    margin-left: 1050px;
 }
 
-header {
-    background-color: #FFF3C4;
-    padding-left: 300px;
-    padding-top: 40px;
-    height: 150px;
+.icon-item {
+    position: relative;
+    display: inline-block;
 }
-
-header img {
-    margin-top: -30px;
-    padding-left: 80px;
-    width: 550px;
-    height: 140px;
+.icon-item:hover .menu {
+    display: block;
 }
+/*#contents {
+    width: 300px;
+    height: 80px;
+}*/
 
-.summary {
+/*------------------------------------*/
+
+.menu {
     display: none;
+    position: absolute;
+    top: 40%;
+    left: -10px;
     background-color: white;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     z-index: 1;
     width: 100px;
 }
 
-.detail a {
+.menu a {
     display: block;
     text-decoration: none;
     color: #333;
     border-bottom: 1px solid #ddd;
 }
 
-.detail a:hover {
+.menu a:hover {
     background-color: #f1f1f1;
 }
 
-.container:hover .menu {
-    display: block;
-}
+
+/*------------------------------------*/
 
 main {
     clear: both;
@@ -86,93 +127,174 @@ main {
     overflow: hidden;
 }
 
+.contents {
+   margin-top: -200px;
+}
+
 ul {
-    width: 200px;
+    width: 600px;
     height: 400px;
     list-style-type: none;
-    padding-top: 200px;
-    padding-left: 200px;
+    padding-top:  200px;
+    padding-left:  200px;
+      margin-left: 60px;*/ /* 왼쪽 여백 조정 */
+
 }
 
-ul li {
-    margin-bottom: 10px;
+h1 {
+        font-size: 2em; /* 원하는 사이즈로 조정 */
+        margin-bottom: 10px; /* 하단 여백 추가 */
+         align-items: center;
+         white-space: nowrap;
+    }
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+.bictitle {
+   margin-left:320px;
+   margin-top:-60px;
+    transform: scale(1.1);
 }
 
-ul label {
-    width: 200px;
+
+.title {
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left:-50px;
 }
 
-fieldset {
-    margin-top: -100px;
-    padding-left: 100px;
-    border: none;
-}
-
-#query-form {
+.section1 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 300px;
-}
-
-#query-input {
-    flex: 1;
-}
-
-#search-button {
-    margin-right: -100%;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-}
-
-#search-button img {
-    width: 100%;
-    height: 100%;
-}
-
-#query-form ul {
-    display: flex;
-    flex-direction: column;
-    margin-left: -25%;
-}
-
-#query-form input::placeholder {
-    color: #D2D2D2;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: space-between; /* 내부 요소들 사이의 여백을 최대화 */
+    width: 500px;
+    height: 50px;
+    background-color: #F1f1f1;
+    border-radius: 20px;
+    padding: 0 20px; /* 좌우 여백 추가 */
+    border: 1px dashed #000;
+    margin-bottom: 10px; /* 하단 마진 추가 */
+    /*margin-left:-20%;*/
+    
 }
 
 #section1 {
-    border-radius: 20px;
+   border: 1px dashed #000; /* 검은색 점선 테두리 */
+     display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: space-between; /* 내부 요소들 사이의 여백을 최대화 */
+    width: 500px;
     height: 50px;
     background-color: #F1f1f1;
+    border-radius: 20px;
+    padding: 0 20px; /* 좌우 여백 추가 */
+    border: 1px dashed #000;
+}
+
+.checkbox_label.large input[type="checkbox"] {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+    margin-right: 10px; /* Optional: Adjust spacing between checkbox and text */
+}
+
+.checkbox_label.large .checkbox_icon {
+    width: 10px; /* Adjust the size of the checkbox's visual appearance */
+    height: 25px; /* Adjust the size of the checkbox's visual appearance */
+}
+
+.privacy-options {
+    display: flex;
+    align-items: center; /* 세로 가운데 정렬 */
+    justify-content: center; /* 가로 가운데 정렬 */
+    width: 20px; /* Lock 버튼의 너비 조정 */
+    height: 20px; /* Lock 버튼의 높이 조정 */
+    margin-left: 10px; /* 왼쪽 여백 추가 */
+}
+
+.privacy-options img {
+    width: 20px; /* 이미지가 부모 요소에 꽉 차도록 설정 */
+    height: 20px; /* 이미지가 부모 요소에 꽉 차도록 설정 */
+    border-radius: 5px; /* 이미지에 둥근 모서리 적용 */
+}
+
+  #query-form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    /*flex-direction: column;*/
+    margin-left: -13%;
+        }
+
+        #query-input {
+           /* flex: 1;*/
+           /* padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px; *//* 오른쪽 마진 조정 */
+            /*margin-left: 100px;*/
+            display:flex;
+            float: left;
+    flex-direction: column;
+    margin-left: -25%;
+        }
+
+        #Lock {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        #Lock img {
+            width: 20px;
+            height: 20px;
+        }
+
+#section2 {
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    background-color: #fffef4; /* 연한 노란색 */
+    display: flex;
     align-items: center;
     padding: 0 20px;
 }
 
 #section2 {
-    border-radius: 20px;
-    width: 1200px;
-    height: 500px;
-    background-color: #F1f1f1;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
     margin: 10px -200px;
 }
 
+textarea#content-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
+    font-size: 1.2em;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+     
+    
+   /*------------------------------------*/
+            
 .navigator {
-    text-align: center;
+    text-align: center; 
 }
 
 .blank {
     width: 100%;
-    height: 10px;
+    height: 10px;  
     background-color: #ffffff;
 }
-
-h1 {
+h1{
     margin-left: 70%;
 }
 
@@ -183,58 +305,96 @@ hr {
     top: 1%;
 }
 
-.info-text {
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 14px;
-    color: #666;
-}
-
-input[type="submit"] {
-    color: #fff;
-    font-size: 16px;
-    background-color: #6A24FE;
-    margin-top: 550px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 70px;
-}
-
-#query-form input {
+#write-button-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
+    justify-content: flex-end; /* 오른쪽 끝으로 정렬 */
+    margin-right: 20px; /* 오른쪽 여백 */
+    margin-top: 20px; /* 위쪽 여백 */
+}
+
+#write-button {
+    position: relative;
+}
+
+/*------------------------------------*/
+.button {
+    text-align: right; /* 버튼들을 오른쪽으로 정렬하기 위해 */
+    margin-top: 30px; /* 상단 여백 추가 */
+    margin-right: 60px; /* 오른쪽 여백 추가 */
+}
+
+.input-submit,
+.input-reset {
+    display: inline-block; /* 인라인 블록 요소로 배치 */
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 70px;
+    cursor: pointer;
+    margin: 0; /* 기본 마진을 없애고 */
+    vertical-align: middle; /* 버튼을 세로 가운데 정렬하기 위해 */
+}
+
+.input-submit {
+    color: #ff0000;
+    background-color: #819c63;
+    border: none;
+    margin-right: 10px; /* 등록 버튼과 취소 버튼 사이의 간격 */
+}
+
+.input-reset {
+    color: #000000;
+    background-color: #f1f1f1;
+    border: none;
+    margin-right: 0; /* 취소 버튼의 오른쪽 마진 제거 */
+}
+
+
+#query-form  input{
+
+    display: flex;
+    justify-content: center; /* 아이템을 수평으로 가운데 정렬 */
+    align-items: center; /* 아이템을 수직으로 가운데 정렬 */
+    width: 500px;
+    height: 48px;
+    padding: 0 10px;
     box-sizing: border-box;
+    margin-left: 10%;
     border-radius: 6px;
     background-color: #F1f1f1;
     border: none;
 }
 
-#query-form li {
+
+#query-form li{
     margin-left: 50px;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* 아이템을 수평으로 가운데 정렬 */
+    align-items: center; /* 아이템을 수직으로 가운데 정렬 */
 }
 
-#query-form input::placeholder {
+#query-form  input::placeholder{
     color: #D2D2D2;
 }
 
+
+
+
+
+
+/*------------------------------------*/
+   
+/*------------------------------------*/
+
 footer {
-    width: 1200px;
-    height: 80px;
+    width: 100%;
+    height: 60px;
     background-color: #FFF3C4;
     position: fixed;
     bottom: 0;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%);
+    left: 0%; /* 화면 가운데에 위치하도록 설정 */
 }
 
-#phonenum {
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 250px;
-    height: 30px;
+
+.contnets {
+   margin-top: 20px;
+    margin-bottom: 80px;
 }
