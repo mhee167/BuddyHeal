@@ -34,7 +34,7 @@ public class AddressModifyController extends ControllerV2 {
 		String ad_phone = request.getParameter("ad_phone");
 		String ad_email = request.getParameter("ad_email");
 		
-		System.out.println("바보"+ad_id + ad_name + ad_email);
+		System.out.println(ad_id + ad_name + ad_email);
 		
 		dto.setAd_id(ad_id);
 		dto.setAd_name(ad_name);
