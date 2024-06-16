@@ -46,10 +46,6 @@ public class AddressWriteController extends ControllerV2 {
 		// DAO 수정 기능 메소드 실행
 		Integer daoResult = dao.addAddress(dto);
 		
-		/* 출력 */
-		System.out.println("(컨트롤러) write에서 받은 아이디 : " + ad_id);
-		System.out.println("컨트롤러 : " + dao.addAddress(dto));
-		
 		if(daoResult == 1) {
 			out.println("alert('주소록 등록이 완료되었습니다.');");
 	        response.sendRedirect("/Mini/address/list.jsp");
