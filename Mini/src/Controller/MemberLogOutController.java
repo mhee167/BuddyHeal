@@ -28,8 +28,8 @@ public class MemberLogOutController extends ControllerV1 {
 		
 		
 		out.println("<script language='javascript'>");
-        out.println("alert(\"로그아웃하셨습니다.\");");
-        out.println("</script>");
+       		out.println("alert(\"로그아웃하셨습니다.\");");
+                out.println("</script>");
         
 		session.invalidate();
 		response.sendRedirect("/Mini/index.jsp");
