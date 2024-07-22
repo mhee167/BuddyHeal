@@ -9,7 +9,7 @@
 
 ### AI 모델
 - Python과 scikit-learn을 사용하여 미취학 아동의 건강 상태를 예측하는 모델을 구축합니다.
-- Flask를 사용하여 모델 예측 결과를 REST API로 제공합니다.
+- FastAPI를 통해 모델 예측 결과를 REST API로 제공합니다.
 
 ### 실행 방법
 #### 백엔드
@@ -24,25 +24,8 @@
 
 
 ## 프로젝트 구조
-├── backend
-│   ├── src
-│   │   ├── main
-│   │   │   ├── java
-│   │   │   │   └── com
-│   │   │   │       └── example
-│   │   │   │           └── healthprediction
-│   │   │   │               ├── HealthPredictionApplication.java
-│   │   │   │               ├── controller
-│   │   │   │               │   └── PredictionController.java
-│   │   │   │               ├── model
-│   │   │   │               │   └── PredictionRequest.java
-│   │   │   │               └── service
-│   │   │   │                   └── PredictionService.java
-│   │   │   └── resources
-│   │   │       └── application.properties
-├── ai_model
-│   ├── model.py
-│   └── requirements.txt
-└── README.md
+![image](https://github.com/user-attachments/assets/99b98496-dbd7-4091-8405-9e7730a62b6b)
+
+
 
 
