@@ -37,6 +37,17 @@
 
 ![image](https://github.com/user-attachments/assets/d412c5a7-79a4-4217-9126-d83bfdd8759e)
 
+## AJAX 사용한 챗봇 기능 구현 설명
+- 챗봇기능은 사용자와 서버간의 실시간 상호작용을 하기 위해 AJAX를 사용해서 구현
+1. 사용자 입력 처리('sendPrompt'함수)
+- $.ajax 함수를 사용하여 서버로 GET 요청
+- 서버 url: '/gpt/chat'
+- 데이터: '{prompt: prompt }'
+2. 메뉴 버튼 클릭 처리('sendPromptFromMenu'함수)
+- $.ajax 함수를 사용하여 서버로 GET 요청
+- 서버 url: '/gpt/chat'
+- 데이터: '{prompt: message }' (버튼의 텍스트)
+
 
 
 ## 백엔드
