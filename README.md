@@ -13,8 +13,8 @@
 ## TEAM 디딤
 - 김민희(조장) : BACK (Spring MVC, API 연동, 대화내용 DB 저장)<br>
 - 황지영 : AI ChatGPT 커스텀, 질병 예측<br>
-- 권정현 : UI (메인, 아동질병률, 챗봇 서포트), UI 컨트롤러 연결<br>
-- 한혜원 : UI 챗봇, 데이터 수집
+- 권정현 : FRONT (메인, 아동질병률, 챗봇 서포트), 컨트롤러 연결<br>
+- 한혜원 : FRONT 챗봇, 데이터 수집
 <br>
 
 ## 개발 환경
@@ -24,19 +24,20 @@
 - AI : chatGPT
 <br>
 
-## 화면 UI
-| 페이지  | 이미지 |
-| ------------- | ------------- |
-| 메인  | Content Cell  |
-| 로그인  | Content Cell  |
-| 챗봇  | Content Cell  |
-| 질병률  | Content Cell  |
-<br>
-
 ## 시스템 아키텍쳐
-이미지
+![system](https://github.com/user-attachments/assets/5e252d4a-f887-4165-af52-0a20a8a76a38)
 <br>
 
 ## 프로젝트 구조
 내용
 <br><br>
+
+## UI
+| 페이지  | 이미지 |
+| :---: | :---: |
+| 메인  | <img src="https://github.com/user-attachments/assets/5193f9af-bbc5-4651-82ec-f374a1cf7056" alt="메인 페이지" width="650">  |
+| 로그인  | <img src="https://github.com/user-attachments/assets/56789f90-6b7e-4f1a-a8ca-4c8f282e9e29" alt="구글 로그인 페이지" width="650">  |
+| 챗봇  | <img src="https://github.com/user-attachments/assets/b6f3ed18-ab6b-440f-b422-6c62d2c70294" alt="의료 상담 AI 페이지" width="650">  |
+| 질병률  | <img src="https://github.com/user-attachments/assets/69098636-01d2-4d34-9614-0f32acbaa0d8" alt="메인 페이지" width="650">  |
+<br>
+<br>
