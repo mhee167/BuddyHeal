@@ -11,8 +11,8 @@
 <br><br>
 
 ## TEAM 디딤
-- 김민희(조장) : BACK (Spring MVC, API 연동, 대화내용 DB 저장)<br>
-- 황지영 : AI ChatGPT 커스텀, 질병 예측<br>
+- 김민희(조장) : BACK (Spring MVC, 프론트&백 연결, 대화내용 DB 저장)<br>
+- 황지영 : AI ChatGPT 커스텀, 감염병 예측모델 생성,node.js chatgpt api 연동<br>
 - 권정현 : FRONT (메인, 아동질병률, 챗봇 서포트), 컨트롤러 연결<br>
 - 한혜원 : FRONT 챗봇, 데이터 수집
 <br>
