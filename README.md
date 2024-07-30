@@ -47,7 +47,7 @@
 
 ## ai 
 - spring framework통해 chatgpt-api를 연결해서 실행 시켰지만 fine-tuning과 시나리오 적용에 어려움이 생겨 node.js에서 gpt-assistant를 연결시키고 비동기 방식으로 spring mvc에서 gpt연결을 구현
-- gpt-assistant : openai-dashboard에서 파일을 넣어서 학습시키고 fine-tuning을 해서 상황에 따른 시나리오를 학습
+   - gpt-assistant : openai-dashboard에서 파일을 넣어서 학습시키고 fine-tuning을 해서 상황에 따른 시나리오를 학습
 
 
 ## 예측
