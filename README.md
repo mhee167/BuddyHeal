@@ -20,16 +20,16 @@
 
 
 ### chat bot 페이지
-- 챗봇과의 대화는 사용자가 메시지를 입력하고 엔터키를 누르거나 카테고리 버튼을 클릭하면 시작됨
  
 ![image](https://github.com/user-attachments/assets/d402c134-aaf9-4517-acdb-6b182719ee03)
 
 ![image](https://github.com/user-attachments/assets/d09e6a75-9cb2-4cc0-9018-707eb3c0a607)
-
+- 챗봇과의 대화는 사용자가 메시지를 입력하고 엔터키를 누르거나 카테고리 버튼을 클릭하면 시작됨.
 
 
 ## morbidity 페이지 (아동 질병률)
-- 아동 질병률 페이지는 Chart.js를 이용하여 데이터를 시각화 함. 모든 화면은 반응형 웹 디자인을 적용함.
+
+- 아동 질병률 페이지는 Chart.js를 이용하여 데이터를 시각화하였고 모든 화면은 반응형 웹 디자인을 적용.
 
 ![image](https://github.com/user-attachments/assets/90150f24-51c2-4fc8-9400-e585b2e53d7b)
 
@@ -40,14 +40,14 @@
 
 
 ## 백엔드
-- Spring framework를 사용하여 RESTful API를 제공합니다.
+- Spring framework를 사용하여 RESTful API를 제공
 - 구글 로그인 api를 활용한 회원가입/로그인 기능
 - 구글 이메일을 기반으로 대화기록 저장 기능.
 
 
 ## ai 
-- spring framework통해 chatgpt-api를 연결해서 실행 시켰지만 fine-tuning과 시나리오 적용에 어려움이 생겨 node.js에서 gpt-assistant를 연결시키고 비동기 방식으로 spring mvc에서 gpt연결을 구현시킴
-- gpt-assistant : openai-dashboard에서 파일을 넣어서 학습시키고 fine-tuning을 해서 상황에 따른 시나리오를 학습시킬 수 있음
+- spring framework통해 chatgpt-api를 연결해서 실행 시켰지만 fine-tuning과 시나리오 적용에 어려움이 생겨 node.js에서 gpt-assistant를 연결시키고 비동기 방식으로 spring mvc에서 gpt연결을 구현
+- gpt-assistant : openai-dashboard에서 파일을 넣어서 학습시키고 fine-tuning을 해서 상황에 따른 시나리오를 학습
 
 
 ## 예측
