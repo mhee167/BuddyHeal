@@ -29,7 +29,55 @@
 <br>
 
 ## 프로젝트 구조
-내용
+```bash
+📦main
+┣ 📂 java
+┃ ┗  📂com.daycon.buddyheal.config
+┃ ┃ ┗ 📜GPTConfig.java
+┃ ┗  📂com.daycon.buddyheal.controller
+┃ ┃ ┣ 📜GPTController.java
+┃ ┃ ┣ 📜LoginController.java
+┃ ┃ ┗ 📜WebController.java
+┃ ┗  📂com.daycon.buddyheal.dao
+┃ ┃ ┣ 📜ChatLogRepository.java
+┃ ┃ ┣ 📜ChatLogRepositoryImpl.java
+┃ ┃ ┣ 📜UserRepository.java
+┃ ┃ ┗ 📜UserRepositoryImpl.java
+┃ ┗  📂com.daycon.buddyheal.model
+┃ ┃ ┣ 📜ChatLogDTO.java
+┃ ┃ ┣ 📜GPTRequestDTO.java
+┃ ┃ ┣ 📜GPTResponseDTO.java
+┃ ┃ ┗ 📜Message.java
+┃ ┃ ┗📜UserInfoDTO.java
+┃ ┗  📂com.daycon.buddyheal.service
+┃ ┃ ┣ 📜GPTService.java
+┃ ┃ ┣ 📜GPTServiceImpl.java
+┃ ┃ ┣ 📜UserService.java
+┃ ┃ ┗ 📜UserServiceImpl.java
+┗ 📂 webapp
+┃ ┗ 📂resources
+┃ ┃ ┗ 📂css
+┃ ┃ ┃ ┣ 📜chatbot.css
+┃ ┃ ┃ ┣ 📜layout.css
+┃ ┃ ┃ ┣ 📜main.css
+┃ ┃ ┃ ┗ 📜morbidity.css
+┃ ┣ 📂img
+┃ ┗ 📂js
+┃ ┃ ┃ ┣ 📜chart.js
+┃ ┃ ┃ ┣ 📜chatbot.js
+┃ ┃ ┃ ┣ 📜mainScroll.js
+┃ ┃ ┃ ┗ 📜mainSlide.js
+┗ 📂WEB-INF
+┃ ┣ 📂views
+┃ ┃ ┣ 📂chatbot
+┃ ┃ ┃ ┗ 📜didimi.jsp
+┃ ┃ ┣ 📂morbidity
+┃ ┃ ┃ ┗ 📜analysis.jsp
+┃ ┃ ┣ 📜footer.jsp
+┃ ┃ ┣ 📜header.jsp
+┃ ┃ ┗ 📜index.jsp
+┃ ┗ 📜web.xml
+```
 <br><br>
 
 ## UI
