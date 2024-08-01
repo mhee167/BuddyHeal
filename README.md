@@ -1,6 +1,5 @@
 # 💊 Buddy Heal (버디힐)
 
-[🔗 배포 URL](링크)<br>
 📁 코드 : 1.DACON 폴더
 <br><br>
 
